@@ -12,7 +12,7 @@ export default function ProfileScreen() {
       <Image source={require('../assets/avatar.png')} style={styles.avatar} />
       <Text style={styles.name}>Jelle Vansteenkiste</Text>
       <Text style={styles.role}>Student / Graduaat programmeren</Text>
-      <Text style={styles.bio}>Korte bio: Ik bouw een kleine Expo-app met tabs, stack, FlashList en API-integratie voor school.</Text>
+      <Text style={styles.bio}>Korte bio: Ik ben student aan Vives en volg Graduaat programmeren. Ik bouw een app met tabs, stack, FlashList en API-integratie voor mijn examen.</Text>
       <Text style={styles.contact}>Contact: </Text>
       <Text>jelle.vansteenkiste@student.vives.be</Text>
     </View>
