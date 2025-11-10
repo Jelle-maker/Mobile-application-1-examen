@@ -1,12 +1,9 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { View, Text } from 'react-native';
 
-const HomeScreen = () => {
-    return (
-        <View>
-            <Text>Home screen</Text>
-        </View>
-    );
+export default function HomeScreen() {
+  return (
+    <View>
+      <Text>Home Screen</Text>
+    </View>
+  );
 }
-
-const Stack = createNativeStackNavigator();
